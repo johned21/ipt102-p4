@@ -33,7 +33,7 @@
                     <textarea style="background-color: #0008;" class="form-control mb-3 text-white" name="description" rows="4" placeholder="Description">{{ $item->description }}</textarea>
                     
                     <a class="btn btn-primary" href="{{ route('items.index') }}" id="back">Back</a>
-                    <button class="btn btn-success float-end px-5" type="submit">Submit</button>
+                    <button class="btn btn-success float-end px-5" type="submit">Update</button>
                 </form>
             </div>
 
