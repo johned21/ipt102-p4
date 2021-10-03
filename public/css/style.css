@@ -1,0 +1,232 @@
+nav a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.box {
+    position: relative;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.box::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgb(251, 255, 0);
+    transition: width 0.4s ease-out;
+}
+
+.box:hover.box::after {
+    width: 100%;
+}
+
+.dropdown {
+    color: rgb(0, 0, 0);
+    top: 5px;
+}
+
+.dropdown-menu {
+    padding: 3px 2px;
+    background: transparent;
+    width: auto;
+}
+
+.dropdown-item.box {
+    background: transparent;
+    text-decoration: none;
+    width: auto;
+}
+
+#logincard {
+    margin-left: 20rem;
+}
+
+#login {
+    position: relative;
+    margin-top: 10rem;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10rem;
+    position: relative;
+    color: rgb(36, 42, 0);
+    font-size: 90px;
+}
+
+.titlebot {
+    text-align: center;
+    margin-top: 1rem;
+    position: relative;
+    color: white;
+    font-size: 40px;
+}
+
+#logintitle {
+    font-size: 40px;
+    margin-top: -1rem;
+}
+
+#register {
+    position: relative;
+    margin-top: 10rem;
+}
+
+#registertitle {
+    font-size: 40px;
+    margin-top: -1rem;
+}
+
+.icon {
+    padding: 10px;
+    background-color: #0008;
+    color: rgb(0, 255, 234);
+    min-width: 50px;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.input-field {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+
+.input-field:focus {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.transparent {
+    background-color: transparent !important;
+    box-shadow: inset 0px 1px 0 rgba(0, 0, 0, .075);
+}
+
+.left-border-none {
+    border-left: none !important;
+    box-shadow: inset 0px 1px 0 rgba(0, 0, 0, .075);
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+table {
+    margin-top: 5rem;
+    position: relative;
+    background-color: #0008;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+td {
+    color: #fff;
+}
+
+.itemtitle {
+    font-size: 40px;
+    margin-top: 10rem;
+    color: #fff;
+    position: relative;
+}
+
+#btnitem {
+    margin-top: -2rem;
+    position: relative;
+}
+
+#navbarDropdown {
+    margin-top: -7px;
+}
+
+.dropdown-item {
+    color: rgb(0, 0, 0);
+}
+
+#createitems {
+    margin-top: 10rem;
+    position: relative;
+}
+
+#back {
+    position: relative;
+    width: 80px;
+    height: 35px;
+}
+
+#viewitems {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#actiondropdown {
+    padding: 3px 2px;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+}
+
+.avatar {
+    margin-top: 12rem;
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.username {
+    margin-top: 2rem;
+    position: relative;
+    color: rgb(255, 230, 0);
+    font-size: 30px;
+}
+
+.owned {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 15rem;
+    position: relative;
+    text-align: center;
+}
+
+hr {
+    color: #fff;
+}
+
+#owneditems {
+    margin-left: 10rem;
+}
